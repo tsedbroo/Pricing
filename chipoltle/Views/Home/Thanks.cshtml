@@ -1,0 +1,56 @@
+﻿
+@model chipoltle.Models.Order
+
+
+
+<h2>@chipoltle.GlobalResource.Thanks</h2>
+
+<div>
+    <h4>@Html.Raw(GlobalResource.Thanks_cshtml_Execute_Order)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Item)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Item)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Meat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Meat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Beans)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Beans)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PriceGroup)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PriceGroup)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrderCost)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink(GlobalResource.Back, "Index")
+</p>

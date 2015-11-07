@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1ea6132f-f233-42ed-8451-a220404d735f"
+  name="ViewModel"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ad3ba277-cc42-4bdc-84b6-d3e0fe1f8bf5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dchipoltle.ViewModel"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="11ce492f-4fe8-47ef-850c-d0265933832e"
+        name="OrderSelections"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3182e761-886f-4dd6-913f-02aaac638aaa"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.ViewModel Type%3DOrderSelections"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3ad25b64-7797-4684-abcb-231986ae2e65"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="beebc5e0-4169-4309-a080-181f3285398f">
+                <propertyInstance
+                  Id="c6e68cc3-7da0-450b-9681-40ebdd119a17"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94bac57a-1cd2-4edc-aa2f-8d2843f3b9e3">
+                <propertyInstance
+                  Id="de2eada5-f7a0-4ca2-b2c2-95159f332ae3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1706d76-e799-467d-b07e-90c042b76430">
+                <propertyInstance
+                  Id="63ad2699-1d09-4315-9a13-ae16298179af"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d6d2345d-9496-439b-831f-710de5b646bf">
+                <propertyInstance
+                  Id="1d6dade6-8fc9-462a-8abb-7e0cabe66d6b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a863a686-c31e-4b5c-a9be-bc3f207d0aca">
+                <propertyInstance
+                  Id="221e04f7-8c3c-4bfb-81da-bf3ab68f9587"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="48fc9ce7-87a6-4970-bb21-c17740ac496c"
+            isSubstitutable="false">
+            <classMoniker
+              Id="e19dcecf-b5cf-45cf-9c74-9c3473350d3a"
+              LastKnownName="Order"
+              LastKnownLocation="Package6_0853.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="1502ea62-2d62-4cb1-8c2c-a76b6439f4ba"
+            name="selectItems"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1a014868-471e-4d08-8fd1-b87d40889a21"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.ViewModel Type%3DOrderSelections Member%3DselectItems"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f54d1d1c-1729-476a-8f43-e3feefad7c64"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33a5d419-0751-4d83-a5bf-63d93b5bda3b">
+                    <propertyInstance
+                      Id="508f3f59-cbd2-4517-99ed-14b93997db44"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d7888e2-72f2-4a98-ab7a-fe5bdac9803d">
+                    <propertyInstance
+                      Id="f96d9845-7946-4067-8b0d-9af77af8bff4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ffe4df6-5628-4d77-9f3a-1ef2aca3a443">
+                    <propertyInstance
+                      Id="e53b0071-8779-4470-8644-b417f33bf028"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f1bc592-77a9-41b7-a667-85b7ed071582">
+                    <propertyInstance
+                      Id="9a699f46-3f78-4bd8-b6e8-f6f43115592f"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edf6a0f5-2a45-425c-863f-a8fba61eed8c">
+                    <propertyInstance
+                      Id="43584202-3e9b-4e98-be13-5459fe66eb6e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="025b166c-3a36-4822-9463-d0ecd79f1065"
+                LastKnownName="List&lt;SelectListItem‎&gt;"
+                LastKnownLocation="Package3_0853.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="93104bd2-f8e7-4d09-9f00-125f7d57c3a4"
+            name="selectMeats"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f9b830d1-17c6-413a-b097-6457b76a332b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.ViewModel Type%3DOrderSelections Member%3DselectMeats"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="791c3270-0ca5-4036-b63f-ecc261c2ff04"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f0fe232-3d5e-4bdf-8408-b2f531a0558b">
+                    <propertyInstance
+                      Id="1267c55b-4fe0-4884-a290-5dd58d92ee2d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a73a931e-ba00-439e-8113-571e4c4213f4">
+                    <propertyInstance
+                      Id="1be6ccc9-a013-47bc-bffa-21beac31236b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38f3f98b-4b26-4e13-9184-32feb2bd679d">
+                    <propertyInstance
+                      Id="9242acbc-55c3-4ab1-afb8-b7ba1fa7ab1c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ca6ad42-ba6f-4bec-b4e3-47a591edbac0">
+                    <propertyInstance
+                      Id="beb83b0c-b50a-41a9-bdad-777ce0478fb3"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cbb2cf4-d553-44a5-b85f-a30da06bc891">
+                    <propertyInstance
+                      Id="f344efbd-50bf-49ee-ae2c-85903e1a4706"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="025b166c-3a36-4822-9463-d0ecd79f1065"
+                LastKnownName="List&lt;SelectListItem‎&gt;"
+                LastKnownLocation="Package3_0853.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a0fc219c-7b6a-438f-9d9e-a14d390f28a2"
+            name="selectBeans"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a2565421-6201-4550-a740-fe3af97a1841"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.ViewModel Type%3DOrderSelections Member%3DselectBeans"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b7c4da4f-5d51-439d-a4bd-0a05a11d0dce"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3d86dd4-59d2-4f83-bab7-c1e68ab4f5a4">
+                    <propertyInstance
+                      Id="a8e6d5ed-672a-496c-b58b-ccf2398efd11"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eb7c2dc-4242-4e71-aa5b-228a3b9d4a27">
+                    <propertyInstance
+                      Id="13eb420e-9251-44dc-9b7f-b38bac149a0a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="074d3fc1-3328-4f55-9e48-ce7d2259af52">
+                    <propertyInstance
+                      Id="3de4ef1f-c344-479f-b3d7-2ba62b223f2a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2dad623a-6643-45e4-a3be-be898e8581c3">
+                    <propertyInstance
+                      Id="37522759-d5ce-449b-b086-5d177b7e534b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab43c4bf-7fe5-4813-9b36-958eac50b093">
+                    <propertyInstance
+                      Id="e2f46d82-f4c2-4959-9827-ddd8b4451ef5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="025b166c-3a36-4822-9463-d0ecd79f1065"
+                LastKnownName="List&lt;SelectListItem‎&gt;"
+                LastKnownLocation="Package3_0853.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="605dc1f6-ddd1-4636-93e7-d7acb2440ba1"
+            name="OrderSelections"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1f2b4a13-25fb-4ce6-9f25-cbb7116ccd43"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.ViewModel Type%3DOrderSelections Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8bef9761-f2af-47b1-be97-d7f839f8baf3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c098ed8b-ef68-43ae-8967-c33ce50067b2">
+                    <propertyInstance
+                      Id="ad968f48-83c1-4273-bfd5-b464875edcbd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d46dfc26-aff6-42e3-87d3-7fd7600ead06">
+                    <propertyInstance
+                      Id="437524df-7d0a-46ac-89e3-a14622818ee2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88576c43-ecd5-449f-982e-ad2ff7e99e3a">
+                    <propertyInstance
+                      Id="5e5621a8-d003-4f4d-b6ae-7c8837157fe5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e6e4f9ff-dc4a-4efa-a2b3-d6618891d1cb">
+                    <propertyInstance
+                      Id="453ea5d6-97de-4dbc-9750-c3ffdea4355d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ec30bf7-18f1-4074-874c-98deda7e77ad">
+                    <propertyInstance
+                      Id="47ffc185-7421-43b7-87a3-f199ba3b1cb6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8cb87ee4-a137-4390-b91f-e9ca46c53dcb">
+                    <propertyInstance
+                      Id="ed5bce0d-5e65-4d22-b3ff-543962f58573"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

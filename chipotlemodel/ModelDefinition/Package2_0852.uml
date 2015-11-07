@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="149b800e-9808-40ad-812d-06df2094bd1d"
+  name="Controllers"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="2dc0fae1-eb90-4bf5-9e2d-9f7cecf7b548"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dchipoltle.Tests.Controllers"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e4d50bb1-7c6b-40d6-906c-b55543177dcd"
+        name="HomeControllerTest"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="358dc4d2-2ef5-4332-8d84-577d90a7b9e4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle.Tests%2Fbin%2FDebug%2Fchipoltle.Tests.dll&quot; Namespace%3Dchipoltle.Tests.Controllers Type%3DHomeControllerTest"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3da1a97e-2ec3-4f77-9789-ec72f70853a8"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3373cd8f-f9d4-4714-813e-9d1671d4f8c0">
+                <propertyInstance
+                  Id="41f8579e-d7b7-47fc-b5ce-d2db17e1fab4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5008391c-56f6-412e-a59b-bb3a5e3c7a2e">
+                <propertyInstance
+                  Id="db2f6178-f47a-453e-8f2f-32fd7f9bd253"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3960073f-f7ec-40df-8a06-cfb7e568f549">
+                <propertyInstance
+                  Id="d6b27648-5aae-4bb5-b0d1-1ceae2c35929"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8066bb80-dd6f-4317-8849-7363bf2ab637">
+                <propertyInstance
+                  Id="dddb64c2-e4c5-40ba-9e77-d0319cc7125e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aadeee7d-672c-4d80-aed0-7c420c313e29">
+                <propertyInstance
+                  Id="00346323-392c-451b-9ca5-fa184776e873"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="021babe5-312d-497d-ab62-47f2e6470bcb"
+            name="Index"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="433dc6d8-0f1d-419a-8301-6ecb6056f862"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle.Tests%2Fbin%2FDebug%2Fchipoltle.Tests.dll&quot; Namespace%3Dchipoltle.Tests.Controllers Type%3DHomeControllerTest Member%3DIndex"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e4feca3d-4305-42ed-8c26-6df5b1abb3e2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c1571fa-ea1e-4e33-b46d-b3f5070dbf65">
+                    <propertyInstance
+                      Id="788a761f-7bd8-46e9-a36a-2bfdbe105285"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd93c7a8-0bef-4a01-8e50-626856408e37">
+                    <propertyInstance
+                      Id="9ec06c1b-8675-4b13-a19b-df6c4ca50e5e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4fce3f1-7e95-4fe4-84bc-4db61f64435f">
+                    <propertyInstance
+                      Id="1e47a9d9-cea7-43a2-a0ae-5d91d1a80eaa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4548359-bf28-4fa3-8be7-b90aa41cca1d">
+                    <propertyInstance
+                      Id="f80a22ef-e11d-46c1-929a-f9d97fe53727"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f723a41b-8bfd-45a4-a249-ce5d238bb9b1">
+                    <propertyInstance
+                      Id="bb3e3fbe-d8d5-43a6-a367-0266e85823df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ecfae92-32d3-49aa-824d-f64f0ae75850">
+                    <propertyInstance
+                      Id="7706c90f-54fc-43fc-9033-d1b37e952f30"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c24b0d65-da4b-46bf-af6b-70f8d29c0ec8"
+            name="About"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="17b977a0-3fc3-443c-9643-8f368ce66724"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle.Tests%2Fbin%2FDebug%2Fchipoltle.Tests.dll&quot; Namespace%3Dchipoltle.Tests.Controllers Type%3DHomeControllerTest Member%3DAbout"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7522f4af-b923-4e9d-a2d0-72b1463f4670"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4813393-80ea-4cc6-83f0-b3d3fd31207d">
+                    <propertyInstance
+                      Id="8f335129-a0c5-4b17-a7b4-4bee89eb7066"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="400e9c62-39ed-4093-b649-4dbe952a1aa4">
+                    <propertyInstance
+                      Id="f3bc7fae-4f32-4355-b72a-86e3d9c4c237"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fd60ce5-81d8-464c-ab54-6ea9442d762c">
+                    <propertyInstance
+                      Id="48d96b93-1f3d-4f9f-b489-86df84358cae"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fce81b2d-df3c-48fd-bed5-2cd3ec5dacd0">
+                    <propertyInstance
+                      Id="3aafdfd9-0e69-4540-be46-f0d76ad9856c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61d484f9-e633-4b4a-8220-d8388a94277d">
+                    <propertyInstance
+                      Id="9f270e5c-bce0-4759-847d-9aa62db9c6c1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="427a91bb-e4e5-407d-8276-7b45f132b61c">
+                    <propertyInstance
+                      Id="34ec9a13-bcce-40d5-b02c-f39f52df45f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="808b0bb5-542e-4233-a51c-978f1e901368"
+            name="Contact"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1999a8a1-c9e7-46a1-a4de-11963eb7ce8e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle.Tests%2Fbin%2FDebug%2Fchipoltle.Tests.dll&quot; Namespace%3Dchipoltle.Tests.Controllers Type%3DHomeControllerTest Member%3DContact"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0bbba7b6-965e-4ad2-bacf-0ea9ca2d2bf7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa6c9c73-2c81-466a-af7e-a4a8ad58126c">
+                    <propertyInstance
+                      Id="7723c194-c40a-41dc-b04c-68d482002cbb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edaeb115-5209-4448-af0e-29d3ba131dde">
+                    <propertyInstance
+                      Id="a46b349f-8905-4212-9ef0-f9bae015fe41"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5d5e224-49f3-4405-84f7-1348eb4c91bb">
+                    <propertyInstance
+                      Id="0fd8772f-e7c4-4553-a331-4686c3630ce8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c89f1ff1-711a-4330-bb3e-46b3aefac64c">
+                    <propertyInstance
+                      Id="f5ff149b-5166-460e-b183-ffe11c7233b9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c5dcf34-145b-421e-a99b-badb9b6a1dd6">
+                    <propertyInstance
+                      Id="3f43cb83-d1ef-4463-b42f-b0f453122cfb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9755c071-2bf3-4f93-8c84-1b424865e010">
+                    <propertyInstance
+                      Id="7d975e2c-ec53-455a-b826-01997cb5e438"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="6f507341-9a09-47e3-9f2c-6b0bd1584fab"
+            name="HomeControllerTest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ea98eb02-414f-43c0-b87c-630c78063dbe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle.Tests%2Fbin%2FDebug%2Fchipoltle.Tests.dll&quot; Namespace%3Dchipoltle.Tests.Controllers Type%3DHomeControllerTest Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="60ba548e-517f-4b78-9930-0a770aca66ab"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f001013-1d99-4cba-a692-4db8bf959295">
+                    <propertyInstance
+                      Id="166b8815-451b-4004-b783-2095de5be2c4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5a5ce0e-49a9-48a4-a8c7-73b8b53ddce7">
+                    <propertyInstance
+                      Id="b4aedbcc-e915-455d-8d26-867878ce4d72"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f8408d7-1ab1-459b-ac12-80b2ade673dc">
+                    <propertyInstance
+                      Id="eb84006c-bcff-4666-8d85-2a03543bf667"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e63d76d-860f-4358-9d92-0b224a0cda47">
+                    <propertyInstance
+                      Id="b027bd1b-4c11-4cac-a9d4-7b5306605d1c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="226e933a-c063-4791-a38d-910991c95543">
+                    <propertyInstance
+                      Id="6c34a8d3-8244-4e24-8cbe-3c2763c72ff5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="691ce4e0-879d-4259-81c8-f88cc2b51e46">
+                    <propertyInstance
+                      Id="75d8aec5-8e4c-4f42-b07d-1df5551051c9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

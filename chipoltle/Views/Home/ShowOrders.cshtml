@@ -1,0 +1,33 @@
+﻿@model IEnumerable<chipoltle.ViewModel.CounterViewModel>
+
+@{
+    ViewBag.Title = "ShowOrders";
+}
+
+<h2>ShowOrders</h2>
+
+
+<table class="table table-striped table-hover">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Item)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Count)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Item)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Count)
+        </td>
+        
+    </tr>
+}
+
+</table>

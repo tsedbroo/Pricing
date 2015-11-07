@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8f2c99d8-8f91-47e2-a012-a100d39a288a"
+  name="chipoltle"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="be989f54-e40b-4ec4-87dd-ce997fbe9f8b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dchipoltle"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6c9257b3-9d6b-448c-bac2-bd3702c1edef"
+        LastKnownName="Tests"
+        LastKnownLocation="Package1_0852.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1ea6132f-f233-42ed-8451-a220404d735f"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package_0853.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9c95fb39-03ca-42ea-8f8d-26efbd655ac9"
+        LastKnownName="Models"
+        LastKnownLocation="Package6_0853.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8a864421-640e-4c9d-b553-ce1a25abbc3f"
+        LastKnownName="Controllers"
+        LastKnownLocation="Package7_0853.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

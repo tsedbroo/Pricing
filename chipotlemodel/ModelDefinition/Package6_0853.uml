@@ -1,0 +1,1450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9c95fb39-03ca-42ea-8f8d-26efbd655ac9"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="423035df-a04a-4c29-a362-46f7efee6734"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dchipoltle.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="e19dcecf-b5cf-45cf-9c74-9c3473350d3a"
+        name="Order"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="27e618b4-0876-4dea-92e5-ad464e3d3635"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="032bf8fe-dfc0-4506-b196-5d3357c70f6c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="42616148-c913-45b0-9509-f28042bedd04">
+                <propertyInstance
+                  Id="d67ce510-748e-4c07-8765-61b6612490d2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54c3414e-86fe-4587-83a3-5b7e14dc1dcf">
+                <propertyInstance
+                  Id="b55954fe-5cf3-4788-9cdd-3a7e92f5ea13"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d364d23f-8d66-4c9f-a3dc-4b4be18ac947">
+                <propertyInstance
+                  Id="ceb69073-d0dd-4b89-84c2-5b2ad88906de"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a589b3ba-b27b-4642-a7f9-e2e019c66cb9">
+                <propertyInstance
+                  Id="eb849b1d-0248-4a3f-b2f5-b9659ec1992b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4db43ea3-06bd-4a0a-ad3a-9d017ccce302">
+                <propertyInstance
+                  Id="d377de27-abb2-40af-b76f-eb817bb4f603"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="2846f80e-9085-4560-b378-3639735a2b7b"
+            name="Item"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5cec7534-fd81-4279-aacb-7360a38e2e58"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.Models Type%3DOrder Member%3DItem"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9b3a7abe-c2d2-4779-a562-b329ee405efe"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c728ae41-5f1a-4ddf-9fe0-df7986a2f3e8">
+                    <propertyInstance
+                      Id="f9cdea66-2444-45dc-8387-2ec0bca7786b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94fa7df8-1ce3-49b7-b601-b0691ef1441b">
+                    <propertyInstance
+                      Id="70d20a73-fbec-46d4-8ecd-2e06dadab325"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4089121f-2729-401d-a1ab-6343bf30d602">
+                    <propertyInstance
+                      Id="952fea02-3870-4ff4-878f-483c4b8aad96"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b665cea1-91cf-4407-80a8-a73d6ddd684a">
+                    <propertyInstance
+                      Id="8e88c796-c8e0-4adf-8eb4-86b6cb36302c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce6cacfb-8c2c-4b53-b591-ec7e5ac4d107">
+                    <propertyInstance
+                      Id="d02d80a2-35da-45de-aedc-5edf4b78aadb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dc4bc9c-3884-43d9-a89b-a13f03a46b19">
+                    <propertyInstance
+                      Id="a7d5ef77-98ba-40fb-a640-5a32bffdf7f3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cd6571c-9c39-4bbc-96e3-1c7bd56d8248">
+                    <propertyInstance
+                      Id="1883428a-29f7-4fd7-b14f-5f532becd793"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="chipotlemodel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="815c2a21-8687-4c8d-a172-77d7f93ae10d"
+            name="Meat"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="60d2a095-f04c-4c88-a463-450990831790"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.Models Type%3DOrder Member%3DMeat"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c36d103f-4ba6-4baa-aa89-e6244ece0820"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e4429c1-b28c-433d-bbb7-183a4ae39089">
+                    <propertyInstance
+                      Id="ece1cce5-1b0b-4268-898c-a5252ec31e04"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e19970ec-229e-4bf0-8604-4d889fbbe607">
+                    <propertyInstance
+                      Id="49d68a06-ff25-457a-a56b-29822fa8d0df"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b333c3d-2b84-4622-a486-3cfd5937161d">
+                    <propertyInstance
+                      Id="7800691e-0802-45fd-a64e-5382c612ca2b"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f9f69e4-6f47-42de-b57f-8e3ab0c43f5e">
+                    <propertyInstance
+                      Id="98569762-51bf-470f-9ec9-e268622acb0a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07040296-348b-43e0-944c-71349f97aff0">
+                    <propertyInstance
+                      Id="8a823643-ba4c-46e0-ab33-36f8532cd6e5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="688cebdf-de50-4eda-9f36-476a7965517f">
+                    <propertyInstance
+                      Id="4ce9f301-5e78-4c58-85a1-84f5909397f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1372ed93-5b0c-40b5-9f6f-83fe99e15ab9">
+                    <propertyInstance
+                      Id="3b62259b-2d37-402f-a79d-9b16eacd0775"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="chipotlemodel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c0399fd7-d4f4-423c-9cc2-d4900ce1213e"
+            name="Beans"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ebfab070-1070-4909-82c9-06468aaa6050"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.Models Type%3DOrder Member%3DBeans"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e9a7c346-de68-4227-8723-f2600fd925e5"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9827eb7-46f3-410a-9924-c7a3e8bf797b">
+                    <propertyInstance
+                      Id="2029cf63-23fc-4929-9db3-b01e33b06f8e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cf02193-0f91-47b2-848c-022acd7a6e32">
+                    <propertyInstance
+                      Id="8f134e82-0bf3-4b10-83c0-a3997b780282"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b1eeb79-dc48-461c-9c11-f2c15116ee10">
+                    <propertyInstance
+                      Id="50e125ef-eb4b-4c83-b404-90e6383868df"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="850bc37d-b541-4dc5-9f5a-a3bd319ab4c2">
+                    <propertyInstance
+                      Id="8a9e28f3-1d4e-4c4a-8b47-70957549a30e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a27e022-b561-425e-abc7-6d3b72a359a6">
+                    <propertyInstance
+                      Id="412bca57-5c21-4182-af80-424b7f802652"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0a4d677-45a5-4aab-bb75-8f002e3e3c8e">
+                    <propertyInstance
+                      Id="4ff3ab40-c5d8-4995-bf2b-2a905d750708"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="181596fa-4216-4f3c-9f96-ad54f8d1858e">
+                    <propertyInstance
+                      Id="e1dfd8e7-8be1-42f4-bd0a-0b53bc0b18f7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="chipotlemodel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1a3972d8-f23d-4139-92b3-baa226875050"
+            name="Order"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="90b94003-6e4a-441d-bd14-d909546a97c6"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FLynn%2Fdocuments%2Fvisual studio 2013%2FProjects%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll&quot; Namespace%3Dchipoltle.Models Type%3DOrder Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f2b0925f-93d6-4841-b047-6b8ba94ef979"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e310d08-c2e7-45c8-8544-327c4a6a4bb6">
+                    <propertyInstance
+                      Id="d5f26a7c-b76a-4ecb-b317-d22ee65fdb9d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8f9dc75-fcf2-4f22-b6d7-6beefaf6a62a">
+                    <propertyInstance
+                      Id="4019106a-71a1-420a-9b1c-3cb51e5d669e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="846f5536-3fdd-4a49-95f1-6d115a5341d7">
+                    <propertyInstance
+                      Id="13e57f7d-e25c-4b43-b5e3-c4b001e93ff3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="113f6cdc-4c5e-4108-a747-63245afe9efb">
+                    <propertyInstance
+                      Id="cf897e52-8223-411d-a01f-a174c0d325dd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="519f9dc6-0e48-4e30-b516-adf9597c12e8">
+                    <propertyInstance
+                      Id="4c12c3bd-ff12-4851-84a6-eca71646bb1c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fdf8b31-ca16-4eb3-9b2e-4e502fb1ed14">
+                    <propertyInstance
+                      Id="129404f8-b247-476e-8cff-604d1a6e65cd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="71e51e83-e778-4b32-b34f-a84ef81c2b87"
+        name="Calculate"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="346e1a41-a889-49aa-8fb4-57a18c52616e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCalculate"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b02b0b3c-9b68-497f-a9a7-6b344fd2c627"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a4f314c3-0ca0-4d22-8044-34a8526d9cdb">
+                <propertyInstance
+                  Id="e8aa129d-1c58-48db-b221-bb3a72e09430"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3eb8405-76e2-48bc-b021-cbd1c77fc692">
+                <propertyInstance
+                  Id="ab2b2c2d-830b-4733-832b-8c3d6ff62e29"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4876f170-af49-4577-bbdb-40cbe7dfb3db">
+                <propertyInstance
+                  Id="3817ff01-19e8-4b61-aeaf-79b7d81b863c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88839d1a-28d1-4519-8376-3f06776ba436">
+                <propertyInstance
+                  Id="41d4efcb-12d9-4aa7-a692-d9e8e140432e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a4d4161d-72e1-4885-b7de-0aea3b2a1bf7">
+                <propertyInstance
+                  Id="30e91f26-6e7e-404d-a0bf-3d8c8ef0bc41"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="5b5ab7e0-9137-42f0-9300-1d452b1a27ad">
+            <interfaceMoniker
+              Id="548745f7-49a9-4829-93ff-3f5951a8dd0c"
+              LastKnownName="IPricingStrategy"
+              LastKnownLocation="Package6_0853.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8d66eadd-b9e0-4acd-b5da-a25d86401c60"
+            name="Prices"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d9779fb5-6f94-4122-8bc3-cf104eae73aa"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCalculate Member%3DPrices"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="71ba7a3d-5fe3-4eba-bfb8-c560cec345b4"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76da5bea-1927-4610-a5d7-97179edfab46">
+                    <propertyInstance
+                      Id="baf7d757-b114-477c-b3b9-de52b1af3383"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d675ce9-2dff-41ad-b727-9c648423e609">
+                    <propertyInstance
+                      Id="aabb6ec1-73e9-42cb-be08-094995ab22d6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf309150-c571-4d32-b715-9b49b5e9fcc2">
+                    <propertyInstance
+                      Id="6d8b6de3-98cb-463a-901d-3ed0d54727a8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="add6c88a-ddb7-4b08-9e08-87e82658f258">
+                    <propertyInstance
+                      Id="1933c92b-d5e5-40c6-b0f7-fffa76b5ab58"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6dd6e88-7bdd-42da-a116-4a7828055c52">
+                    <propertyInstance
+                      Id="5c913261-0af2-4d5e-b385-590072094e54"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b32e1a8d-efaf-4069-96b0-08c7b423ccc1"
+                LastKnownName="Dictionary&lt;String‎, Decimal‎&gt;"
+                LastKnownLocation="Package3_0853.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="397edf4e-67e9-43c4-b79b-ebacaf23cc57"
+            name="CalculateCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5b0a3c58-41d6-4b7d-acc4-e8613b3e5b63"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCalculate Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="407230c6-d828-4ffc-b508-046fd34f8d20"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf863521-7d6e-4dce-8b0d-7197dd9a692d">
+                    <propertyInstance
+                      Id="78c710da-ea77-4d4b-9a9c-5f7bedf165f8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc9d8613-69e5-4bbf-b81d-d36783954ad8">
+                    <propertyInstance
+                      Id="8c6e6481-c782-4095-9624-3fd1c98c88a0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d272ab56-809e-4f29-a19c-fb519e2461e5">
+                    <propertyInstance
+                      Id="72786095-3e49-4d12-8201-e029d2d62fd4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d299834-8dc2-4cc2-a2a5-03a28e7f5e9a">
+                    <propertyInstance
+                      Id="c19676d5-315d-4915-a380-c5fec96365be"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d202fd4f-58ce-45a2-9ecf-0ecb85dda586">
+                    <propertyInstance
+                      Id="ec522bc2-74c1-4f5e-9b25-742c156cc1fb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b5aa011-022a-4915-b23d-c68a214d93bd">
+                    <propertyInstance
+                      Id="dc7f335d-9d41-438d-bcfe-9249ab9cebab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="075b5b7a-e08e-4822-bb00-f6b5e9b59e71"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14804e6a-d882-4dff-a856-cd4186dfd73c"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ed09a101-1bc8-497b-a194-5597d18d57b3"
+                  name="anOrder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ff458e6d-e7b3-4d88-9e0c-33d01a034f60"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCalculate Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)]) ParameterIdentifier%3DanOrder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e19dcecf-b5cf-45cf-9c74-9c3473350d3a"
+                      LastKnownName="Order"
+                      LastKnownLocation="Package6_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2884254f-3b26-473b-92e3-6e5ce666049e"
+            name="GetPricing"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="be671b38-5f88-4a49-bb28-7dbd44ad2b34"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCalculate Member%3D(Name%3DGetPricing OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0aa5f7d6-3dbd-4ad7-af28-8a0c2f442e23"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="533aef82-aa02-4cb0-93bb-9989a9674b2e">
+                    <propertyInstance
+                      Id="ab375e09-e9fc-4cfb-b5b4-2904effb6189"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9e895e2-ec7e-4cb2-ad0a-2ca8c11e2572">
+                    <propertyInstance
+                      Id="65c97e75-d76a-4f1c-b137-1d5971724761"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3ef3e37-7bee-4fdf-aa81-fafc5151c4d3">
+                    <propertyInstance
+                      Id="4e1775fa-52e2-439f-b96c-805f5a4f50df"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="698e3f07-c026-40a3-a27f-f9805040ae13">
+                    <propertyInstance
+                      Id="09b0424b-fe6e-4c62-ae21-8c465870926e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e891458c-9d2b-40f0-a6d2-903343fd2563">
+                    <propertyInstance
+                      Id="c396b342-9161-420b-b3a6-bfec7d5fda3a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d16f8811-8d0b-42f5-85d6-48d83cb40e60">
+                    <propertyInstance
+                      Id="13ed05d5-f58f-4106-b05f-0705a324f7fe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d1a783c1-be43-44ef-b755-6448f410e75b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14804e6a-d882-4dff-a856-cd4186dfd73c"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c23d08e9-41b0-4c1e-a414-abe085a83598"
+                  name="anOrder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f19da6f8-a361-41a5-8da6-ef91441690f8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCalculate Member%3D(Name%3DGetPricing OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)]) ParameterIdentifier%3DanOrder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e19dcecf-b5cf-45cf-9c74-9c3473350d3a"
+                      LastKnownName="Order"
+                      LastKnownLocation="Package6_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ffcf44e0-a664-4a17-8016-c60cc28e908f"
+            name="Discounts"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b802a8c4-ea88-4146-b196-677d605e260a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCalculate Member%3DDiscounts"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f41cf194-2768-4917-a504-2a78bdaf41e4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d47e74ca-3c64-44bb-be5a-4133f8fff20f">
+                    <propertyInstance
+                      Id="e4c18bfe-595c-4061-a487-73c3d9f7f94e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e22651b-54da-4a3c-a1f3-64fcc864630a">
+                    <propertyInstance
+                      Id="13722a40-3bbd-4325-9768-b9545b00e460"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bad2bd8-4af5-4a5d-95c4-a09d066633f7">
+                    <propertyInstance
+                      Id="56e4a9db-2c09-41ac-b802-e8f17b1408a4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db3fda29-fe56-4b19-a6db-d76e69e48942">
+                    <propertyInstance
+                      Id="b99a12b7-f1b8-449b-b764-67ff0dad785d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33f3ea64-a732-4112-aad7-c012e1356d44">
+                    <propertyInstance
+                      Id="ebec2962-deee-4fcf-a683-d1ce5a52a0a0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b986a046-813e-4c06-a4df-65741d509399">
+                    <propertyInstance
+                      Id="33ca2755-59ca-4350-bdbd-b21ca1ab906a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9b33739f-1120-46b1-97fc-43538dd63241"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14804e6a-d882-4dff-a856-cd4186dfd73c"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="548745f7-49a9-4829-93ff-3f5951a8dd0c"
+        name="IPricingStrategy"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="96bb36e0-c747-466f-9f8d-6f5b4b514e54"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DIPricingStrategy"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6845d3db-7233-4279-821a-fc255c257891"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="354aa818-2a88-4186-b9c9-487ce481035e">
+                <propertyInstance
+                  Id="feb5236b-8154-4ab1-81ef-e52099578093"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="865d8d82-e3f8-4781-967b-373e92e8f208">
+                <propertyInstance
+                  Id="5cb9ba62-59db-45b5-bd23-4e52b987f9ac"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="92850118-31a4-4800-9267-842bb9f1e5f7">
+                <propertyInstance
+                  Id="81754d7a-6f9b-4b07-955b-6439bf0f14b7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96fbf1de-a826-4c0e-96c9-612e669d9263">
+                <propertyInstance
+                  Id="ba12d4a3-8695-4ab2-9451-a8b40b5e4c74"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="a7d879f9-b9cf-4908-ad15-e739927a7686"
+            name="CalculateCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="99ee12cf-47e8-465d-a6b3-f87127081992"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DIPricingStrategy Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1fc72c5d-cf8b-4c9d-8561-f2871507730d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="329ca774-5ba9-4fa5-a3ac-474cf6037b3d">
+                    <propertyInstance
+                      Id="09f2bee0-4d64-4051-9c84-b3320c9adb4b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="913a244f-c1c6-4405-b65f-fa38f952a84c">
+                    <propertyInstance
+                      Id="22119289-f93d-45ee-af75-546375fea7d9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66c4c58e-b26f-4596-9878-94280086eb39">
+                    <propertyInstance
+                      Id="86de6378-ab98-4627-816b-f9f3aae7078a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e279ddb-4e24-49e5-8ffb-0339090bfae1">
+                    <propertyInstance
+                      Id="2a9dc17b-8522-4873-801e-50322ddf9b63"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="416ece45-43da-46d8-b3fb-e047f4f4b861">
+                    <propertyInstance
+                      Id="b3edc041-58f4-4496-82f3-c84b3ccde846"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74e99473-baf3-418b-a62e-b8c9fb44123c">
+                    <propertyInstance
+                      Id="2b7d9ccf-8142-4947-948c-7c6158cbb835"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a60be6d7-7a33-4f74-aaaf-cebf2fb80c3c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14804e6a-d882-4dff-a856-cd4186dfd73c"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8a76220a-6e9d-4ea2-a540-9ed1ec90d698"
+                  name="aOrder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1fcfbebc-b7c5-4544-ad29-0036ea209b7b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DIPricingStrategy Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)]) ParameterIdentifier%3DaOrder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e19dcecf-b5cf-45cf-9c74-9c3473350d3a"
+                      LastKnownName="Order"
+                      LastKnownLocation="Package6_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="167e35f3-9a43-43a7-b1ee-5f4a184eac17"
+        name="RegularPricePublic"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dd580012-11da-4664-8998-0f8a7ef46b3a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DRegularPricePublic"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1d1339ef-1853-4a5b-9fc7-c8b313d6b9de"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="df546d5e-ae0e-4db1-b0ed-26466d4c5e23">
+                <propertyInstance
+                  Id="6e0c7f49-d151-4363-b8ad-219654f78ec4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ba51fc3-fb6b-46c6-a970-42916a3c859b">
+                <propertyInstance
+                  Id="e37f359c-c67e-4c2c-a4b3-7d357da39587"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa675c8e-03d5-497b-85e9-12d4d6cb96ef">
+                <propertyInstance
+                  Id="f3e439e5-04b4-4b4d-8179-cf950d931b4c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="defc1ffa-b669-4b5b-a5cf-97ffc100f85f">
+                <propertyInstance
+                  Id="c639af47-fcec-41fd-b003-04e2f0fa7e8d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bbde1f30-8f60-4b90-ba98-35ed964dcae8">
+                <propertyInstance
+                  Id="b51c896b-4408-4235-869d-9b977b7e2d5d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="7aa65c18-65ee-40e9-9740-cdd7b639162b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="71e51e83-e778-4b32-b34f-a84ef81c2b87"
+              LastKnownName="Calculate"
+              LastKnownLocation="Package6_0853.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="45f6453d-46fc-46fa-9fbb-45c674fb4cc8"
+            name="CalculateCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f07f36c5-6708-44d0-88b2-7b3d8a29f233"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DRegularPricePublic Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a936ed71-9019-4868-8a3e-19cdff94e759"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="266aa791-31ed-4ed2-9810-85934fb13f3d">
+                    <propertyInstance
+                      Id="07171b9f-0582-4d15-89ab-11d0878ea0a3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ead364b-ecd3-4f43-825e-ca1536e43320">
+                    <propertyInstance
+                      Id="1d517380-05ef-47bb-88da-ff606dd978e3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2899f0ec-b9b4-49ef-88a5-14fa127d2527">
+                    <propertyInstance
+                      Id="fe7fd39d-0746-4213-8ad8-f3bfe135052a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2415eb5b-57ed-4de2-a4b7-dacd2fc54061">
+                    <propertyInstance
+                      Id="ee1c0c48-7cae-4e41-a08e-fee36b7a0476"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e093e898-cf12-4b10-8101-8c66ff462607">
+                    <propertyInstance
+                      Id="f24cacc3-65f0-4df4-a7ac-035b20962a27"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dd020da-dfde-4f3c-a283-83b3f74d033a">
+                    <propertyInstance
+                      Id="c215d642-fc49-4ee5-8afd-991e0a37c7b7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b7ca0ea8-1cad-4f95-a44c-a0e22837fa18"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14804e6a-d882-4dff-a856-cd4186dfd73c"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fef39d22-9d68-44b7-9f93-a27858a0b12e"
+                  name="anOrder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6096617d-3025-40fe-ad14-35b58b816434"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DRegularPricePublic Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)]) ParameterIdentifier%3DanOrder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e19dcecf-b5cf-45cf-9c74-9c3473350d3a"
+                      LastKnownName="Order"
+                      LastKnownLocation="Package6_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8ca26271-39ba-44c1-93b8-852a1706d667"
+        name="StudentPrice"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e0ae21a7-f8b3-4a46-90f9-9f70a103843e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DStudentPrice"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="18b53cfd-c3d1-4d4b-9675-c395ec997b4b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd7d4e46-31db-4aec-9f6f-d255c03ad907">
+                <propertyInstance
+                  Id="fb4433a8-7909-48b2-83e3-265640c6ff88"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1a09a74-cbaa-4d59-8289-7e43d3f7f8cd">
+                <propertyInstance
+                  Id="bd23681c-3b13-4f9f-b823-b4bed503b229"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ea64d144-7d00-454b-8526-b6307217c9fd">
+                <propertyInstance
+                  Id="a9c28592-ae13-43aa-b677-18d1d42ad4ff"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7cbaa12-d718-4b10-b6ff-f2e98d3851a1">
+                <propertyInstance
+                  Id="28979a2f-2b67-400e-b7a8-800865afd48c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1cd5f0f0-4af3-4b20-abb0-c2a0febedd0c">
+                <propertyInstance
+                  Id="af348ce0-cc39-4673-b505-bacfc92d78f7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="5f91b035-1eb8-469f-8077-ccdd397f5dee"
+            isSubstitutable="false">
+            <classMoniker
+              Id="71e51e83-e778-4b32-b34f-a84ef81c2b87"
+              LastKnownName="Calculate"
+              LastKnownLocation="Package6_0853.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5fa9d8f7-8a0e-4247-88f6-17bb1df7e554"
+            name="CalculateCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="65e7c129-cdfe-4acd-b4ed-12732e1cbdb0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DStudentPrice Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f1816eaa-f900-4ff0-8371-b3f7a3b34c56"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac6dd8ee-dd93-4929-a62e-12a16ebe1fc5">
+                    <propertyInstance
+                      Id="6f241fd3-4b16-463e-9a56-9f9caa8ea63b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3b3223c-e381-466e-955e-413035934c3d">
+                    <propertyInstance
+                      Id="368f9dc2-28ce-44d1-8fd1-9691a8ff184a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34d5b751-c12e-4cff-89e7-80d264afa97f">
+                    <propertyInstance
+                      Id="65ec95dc-263d-4145-b36e-f4d0c86a4800"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb4c4cfb-6dff-4d4c-b1bf-09eb8e255cf5">
+                    <propertyInstance
+                      Id="0faf5218-d66b-4f3e-8935-e7350b2e9202"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b287378c-618a-49a1-9c19-a0e266e5d570">
+                    <propertyInstance
+                      Id="f49ee650-d513-4b04-ad66-37eb94729dd9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00658655-5b62-40e3-9c1e-5800c1c81225">
+                    <propertyInstance
+                      Id="7f327d9e-1e6d-43a2-8f48-ccddba1a0e58"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="087814ab-d886-4714-af91-e2cf95be3bb4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14804e6a-d882-4dff-a856-cd4186dfd73c"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a05bde63-f6e7-445a-96bc-def91ac755b1"
+                  name="anOrder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="78987390-2149-4c5d-8aa8-299a6b97e835"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DStudentPrice Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)]) ParameterIdentifier%3DanOrder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e19dcecf-b5cf-45cf-9c74-9c3473350d3a"
+                      LastKnownName="Order"
+                      LastKnownLocation="Package6_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6f0b2494-cdc0-44bf-bf8d-6061f90cf082"
+        name="CorporatePrice"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e12071bc-0908-44a0-9c97-9381e8fa36e9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCorporatePrice"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="55c47048-ca53-4197-b477-c56bb8defc55"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f7d5c24-a6e2-46af-86bf-8583e44e505e">
+                <propertyInstance
+                  Id="7e3da9a6-e508-4d45-abf7-c5d4257e54ba"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8b9156fa-15a2-4ff7-b9e4-27a3a9908a82">
+                <propertyInstance
+                  Id="01895cce-6fc8-40d0-a2b7-76966e630955"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eb27a1e9-c212-44db-a55e-a8210d3c5d37">
+                <propertyInstance
+                  Id="85b8af58-fb8b-4fa5-b0aa-1f28505570f5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4cad16d6-f72c-46ac-b29d-64cbb6852fd6">
+                <propertyInstance
+                  Id="6f81a448-6dbe-41cf-b0d2-d542e58868f9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="307ba99d-379c-4d41-908d-56c906f282ac">
+                <propertyInstance
+                  Id="3e1cf737-d2df-4dc7-9a47-3dfd14e28847"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="11a54794-9145-40dc-8d66-2d5efc52c05c"
+            isSubstitutable="false">
+            <classMoniker
+              Id="71e51e83-e778-4b32-b34f-a84ef81c2b87"
+              LastKnownName="Calculate"
+              LastKnownLocation="Package6_0853.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="331bf843-1f18-4c3d-9ba5-2baad1b2fbb0"
+            name="CalculateCost"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="87738225-4ef7-4967-b015-848030495029"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCorporatePrice Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb1c70a6-2394-4ebf-9b0f-c25d16c6ae87"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38e6f651-096f-4737-acad-2027f9e85701">
+                    <propertyInstance
+                      Id="f4cb8660-4812-4bd3-8358-c8263e7101a9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8eeb0ce-de34-43dd-8b78-77acb1657c50">
+                    <propertyInstance
+                      Id="c9b26740-9166-4b81-9beb-b217c495e853"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce190e95-d723-4ad2-a864-24497e406f28">
+                    <propertyInstance
+                      Id="386a8328-271a-4a40-ae95-39af00a76ac1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="184caad0-8900-4c7c-a056-f8985b423dff">
+                    <propertyInstance
+                      Id="8dac881a-9574-472f-a433-21002dc5f3b0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a0a3d08-cdde-4376-8ae4-7ea63ae727e6">
+                    <propertyInstance
+                      Id="a22e7673-527c-4fb7-8a18-1b7c0b5bd79c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="811d47a8-b691-48e5-815b-c140e3147f1d">
+                    <propertyInstance
+                      Id="5776e6b5-3216-4ec5-b675-ee12d5a2f458"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="458c5aac-114c-4ed8-8060-a8ff786e55b7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14804e6a-d882-4dff-a856-cd4186dfd73c"
+                      LastKnownName="Decimal"
+                      LastKnownLocation="Package1_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1e50ae57-4ac3-47e9-a76a-f622d532c42c"
+                  name="anOrder"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b52492b1-dc7f-4731-bee5-c4a340e8cb0a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DCorporatePrice Member%3D(Name%3DCalculateCost OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Ftod.sedbrook%2FDownloads%2Fchipoltle_improved%2Fchipoltle%2Fchipoltle%2Fbin%2Fchipoltle.dll Namespace%3Dchipoltle.Models Type%3DOrder)]) ParameterIdentifier%3DanOrder"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e19dcecf-b5cf-45cf-9c74-9c3473350d3a"
+                      LastKnownName="Order"
+                      LastKnownLocation="Package6_0853.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
